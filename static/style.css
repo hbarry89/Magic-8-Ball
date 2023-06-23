@@ -19,3 +19,12 @@ a {
     color: #f1c40f;
     text-decoration: none;
 }
+
+.magic-8-ball {
+    margin: 50px;
+}
+
+#answer-display {
+    margin-bottom: 50px;
+    font-size: 50px;
+}

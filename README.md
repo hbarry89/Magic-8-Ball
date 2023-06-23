@@ -6,9 +6,9 @@ A sample application created using Python.
 
 ## :computer: Usage
 
-*UI is yet to be integrated.*
+- Front end is connected but app is not deployed yet. For now, you can run the app locally by following these steps:
 
-1. You can run the app by using this command: ```python magic-8-ball.py```
+1. You can run the app by using this command: ```python app.py```
 2. Then, ask Magic 8 Ball a question.
 3. An answer to your question will be delivered.
 
@@ -18,16 +18,25 @@ A sample application created using Python.
 
 ## :wrench: Technologies Used
 
-- Python
+- Frontend:
+    - HTML
+    - CSS
+    - JavaScript
+
+- Backend:
+    - Python
+    - Flask
+
 - VS Code
 
 ## :star2: Features
 
-TBA
+- Toggle between light and dark mode
 
 ## :books: Resources
 
-- [Tutorial](https://www.codecademy.com/learn/learn-python-3) 
+- [Tutorial](https://www.codecademy.com/learn/learn-python-3)
+- ChatGPT
 
 ## :question: Questions
 

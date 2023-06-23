@@ -1,3 +1,5 @@
+// --- Toggle ---
+
 let toggleButton = document.getElementById('toggle-button');
 let body = document.body;
 

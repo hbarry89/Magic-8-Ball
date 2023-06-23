@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball</title>
+    <meta name="description" content="A Magic 8 Ball web app to ask questions and predict the future.">
+    <meta name="keywords" content="magic, 8ball, magic-8-ball, future, ask, questions, game">
+    <meta name="author" content="Huda Barry">
+    <link rel="icon" href="https://fav.farm/🎱" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div id="toggle-button" class="toggle">🌓</div>
+    </header>
+
+    <main>
+        <h1>✨ Magic 8 Ball ✨</h1>
+        <img class="magic-8-ball" src="{{ url_for('static', filename='magic-8-ball.png') }}" alt="Magic 8 Ball" width="200" height="200">
+        <form action="{{ url_for('answer') }}" method="POST">
+            <input width="600" type="text" name="question" placeholder="Enter your question" required>
+            <button type="submit">Ask</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Created by <a href="https://github.com/hbarry89" target="_blank">Huda Barry</a></p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
