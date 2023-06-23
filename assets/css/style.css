@@ -1,0 +1,21 @@
+body {
+    background-color: #292e38;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+body.light-mode {
+    background-color: white;
+    color: #292e38;
+}
+
+.toggle {
+    cursor: pointer;
+    float: right;
+}
+
+a {
+    color: #f1c40f;
+    text-decoration: none;
+}
