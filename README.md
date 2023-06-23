@@ -6,9 +6,7 @@ A sample application created using Python.
 
 ## :computer: Usage
 
-App is not deployed yet but you can run it locally using the following command:
-
-```python3 -m flask run```
+[Click here](https://magic-8-ball1-53e2b49e6df5.herokuapp.com/) for the live link.
 
 ### Preview
 
