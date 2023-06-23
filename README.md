@@ -24,6 +24,7 @@ App is not deployed yet but you can run it locally using the following command:
 - Backend:
     - Python
     - Flask
+    - Gunicorn
 
 - VS Code
 
@@ -34,6 +35,7 @@ App is not deployed yet but you can run it locally using the following command:
 ## :books: Resources
 
 - [Tutorial](https://www.codecademy.com/learn/learn-python-3)
+- [Magic 8 Ball Image](https://www.canva.com/)
 - ChatGPT
 
 ## :question: Questions
