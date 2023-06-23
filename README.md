@@ -1,4 +1,4 @@
-# Magic 8 Ball
+# :8ball: Magic 8 Ball
 
 ## :pencil: Description
 
@@ -6,15 +6,13 @@ A sample application created using Python.
 
 ## :computer: Usage
 
-- Front end is connected but app is not deployed yet. For now, you can run the app locally by following these steps:
+App is not deployed yet but you can run it locally using the following command:
 
-1. You can run the app by using this command: ```python app.py```
-2. Then, ask Magic 8 Ball a question.
-3. An answer to your question will be delivered.
+```python3 -m flask run```
 
 ### Preview
 
-<img width="414" alt="Magic 8 Ball Preview" src="https://github.com/hbarry89/Magic-8-Ball/assets/106551259/fc94bf01-46ea-4e6d-892d-4761535128cb">
+<img width="800" alt="Magic 8 Ball Preview" src="https://github-production-user-asset-6210df.s3.amazonaws.com/106551259/248134778-063e679d-d8d6-44a6-aead-2c75aef82a06.png">
 
 ## :wrench: Technologies Used
 
