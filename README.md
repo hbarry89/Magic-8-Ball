@@ -12,7 +12,19 @@ Due to Heroku fees, the live link might not be operable. However, you can run th
 
 ### Preview
 
-<img width="800" alt="Magic 8 Ball Preview" src="https://github-production-user-asset-6210df.s3.amazonaws.com/106551259/248134778-063e679d-d8d6-44a6-aead-2c75aef82a06.png">
+<img width="600" alt="Screenshot 2023-06-26 at 12 36 44 PM" src="https://github.com/hbarry89/Magic-8-Ball/assets/106551259/900b89a9-026a-473f-85b8-e52e33dcc2b5">
+
+---
+
+<img width="600" alt="Screenshot 2023-06-26 at 12 36 54 PM" src="https://github.com/hbarry89/Magic-8-Ball/assets/106551259/17562443-8f69-4fa6-9054-e33959e6a897">
+
+---
+
+Light Mode:
+
+<img width="600" alt="Screenshot 2023-06-26 at 12 37 05 PM" src="https://github.com/hbarry89/Magic-8-Ball/assets/106551259/1a62f105-fb59-49a3-b4a9-4e265d2215c8">
+
+---
 
 ## :wrench: Technologies Used
 
