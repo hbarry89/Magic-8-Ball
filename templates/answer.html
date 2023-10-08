@@ -1,31 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic 8 Ball - Answer</title>
-    <link rel="icon" href="https://fav.farm/🎱" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-</head>
-<body>
-    <header>
-        <div id="toggle-button" class="toggle">🌓</div>
-    </header>
+{% extends 'base.html' %}
 
-    <main>
-        <h1>✨ Magic 8 Ball ✨</h1>
-        <img class="magic-8-ball" src="{{ url_for('static', filename='magic-8-ball.png') }}" alt="Magic 8 Ball" width="200" height="200">
-        <div class="asnwer">
-            <!-- <div id="question-display">Your question: {{ question }}</div> -->
-            <div id="answer-display">{{ answer }}</div>
-        </div>
-        <a href="/"><button>Ask Again</button></a>
-    </main>
-
-    <footer>
-        <p>Created by <a href="https://github.com/hbarry89" target="_blank">Huda Barry</a></p>
-    </footer>
-
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
-</body>
-</html>
+{% block content %}
+    <div class="asnwer">
+        <div id="answer-display">{{ answer }}</div>
+    </div>
+    <a href="/"><button class="btn btn-secondary">Ask Again</button></a>
+{% endblock %}

@@ -50,6 +50,7 @@ Light Mode:
 - [Tutorial](https://www.codecademy.com/learn/learn-python-3)
 - [Magic 8 Ball Image](https://www.canva.com/)
 - ChatGPT
+- Google Fonts
 
 ## :question: Questions
 

@@ -1,41 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic 8 Ball</title>
-    <meta name="description" content="A Magic 8 Ball web app to ask questions and predict the future.">
-    <meta name="keywords" content="magic, 8ball, magic-8-ball, future, ask, questions, game">
-    <meta name="author" content="Huda Barry">
-    <link rel="icon" href="https://fav.farm/🎱" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-</head>
-<body>
-    <header>
-        <!-- <div id="toggle-button" class="toggle">🌓</div> -->
-        <div class="form-check form-switch toggle-container">
-            <input id="toggle-button" class="form-check-input toggle" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-          </div>
-    </header>
+{% extends 'base.html' %}
 
-    <main>
-        <h1>Magic 8 Ball</h1>
-            <img class="img-fluid magic-8-ball" src="{{ url_for('static', filename='magic-8-ball.png') }}" alt="Magic 8 Ball" width="200" height="200">
-            <form class="form-container" action="{{ url_for('answer') }}" method="POST">
-                <input class="form-control question-input" type="text" name="question" placeholder="Type your question here..." required>
-                <button type="submit" class="btn btn-secondary">✨ Ask ✨</button>
-            </form>
-    </main>
-
-    <footer>
-        <p>Created by <a href="https://github.com/hbarry89" target="_blank">Huda Barry</a></p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
-</body>
-</html>
+{% block content %}
+    <form class="form-container" action="{{ url_for('answer') }}" method="POST">
+        <input class="form-control question-input" type="text" name="question" placeholder="Type your question here..." required>
+        <button type="submit" class="btn btn-secondary">✨ Ask ✨</button>
+    </form>
+{% endblock %}

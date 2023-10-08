@@ -40,6 +40,3 @@ def answer():
     print("Magic 8 Ball's answer: " + answer)
 
     return render_template('answer.html', question=question, answer=answer)
-
-if __name__ == '__main__':
-    app.run(debug=True)
