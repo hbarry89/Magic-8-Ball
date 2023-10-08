@@ -6,7 +6,7 @@ body {
 }
 
 body.light-mode {
-    background-color: white;
+    background-color: rgb(240, 240, 240);
     color: #292e38;
 }
 
@@ -15,16 +15,58 @@ body.light-mode {
     float: right;
 }
 
+.toggle-container {
+    display: flex;
+    justify-content: right;
+}
+
+.form-check-input:checked {
+    background-color: #f1c40f;
+    border-color: gray;
+}
+
+main {
+    margin: 10vh;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+.question-input {
+    width: 300px;
+}
+
 a {
     color: #f1c40f;
     text-decoration: none;
 }
 
-.magic-8-ball {
-    margin: 50px;
+.magic-8-ball, .toggle {
+    margin: 20px;
 }
 
 #answer-display {
     margin-bottom: 50px;
     font-size: 50px;
 }
+
+p {
+    margin: 10px;
+    font-size: small;
+    color: gray
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #242526;
+    text-align: center;
+  }
